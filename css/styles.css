@@ -1,23 +1,33 @@
-@charset "gb2312";
+/* 
+* @Author: Fashion Lee
+* @Date:   2016-12-15 23:47:06
+* @Last Modified by:   Fashion Lee
+* @Last Modified time: 2016-12-16 00:06:00
+*/
 /* CSS Document */
 * { margin: 0; padding: 0 }
-body { background: #DDD6CC; font: 12px "ËÎÌå", "Arial Narrow", HELVETICA; color: #3F3E3C; line-height: 1.5; }
+body { background: #DDD6CC; font: 12px "å®‹ä½“", "Arial Narrow", HELVETICA; color: #3F3E3C; line-height: 1.5; }
 img { border: 0; vertical-align: middle }
 p { display: block; }
 ul { list-style: none; }
 a { color: #a6a6a6; text-decoration: none; transition: All 0.5s ease; -webkit-transition: All 0.5s ease; -moz-transition: All 0.5s ease; -o-transition: All 0.5s ease; }
 a:hover { color: #000; }
-.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
+.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both ;}
 /* nav */
-.header { width: 100%; height: 43px; background: -webkit-gradient(linear, 78% 100%, 78% 41%, from(#EFEEEC), to(#fff)); box-shadow: #D0C9C0 2px 2px 3px }
+.header { width: 100%; height: 43px;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#EFEEEC));background: -webkit-linear-gradient(#FFFFFF, #EFEEEC);background: -moz-linear-gradient(#FFFFFF, #EFEEEC);background: -ms-linear-gradient(#FFFFFF, #EFEEEC);background: -o-linear-gradient(#FFFFFF, #EFEEEC);background: linear-gradient(#FFFFFF, #EFEEEC);-pie-background: linear-gradient(#FFFFFF, #EFEEEC);behavior: url(./css/PIE.htc);-webkit-box-shadow:#D0C9C0 2px 2px 3px;-moz-box-shadow: #D0C9C0 2px 2px 3px;box-shadow: #D0C9C0 2px 2px 3px; }
 .header .nav { margin: 0 auto; width: 980px; text-align: center }
 .header .nav ul li { line-height: 43px; display: block }
-.header .nav ul li a { color: #484848; float: left; padding: 0 20px; margin-right: 2px; }
+.header .nav ul li a { color: #484848; float: left; padding: 0 20px; margin-right: 2px; -webkit-transition: none;
+   -moz-transition: none;
+    -ms-transition: none;
+     -o-transition: none;
+        transition: none;}
 .header .nav ul li a:hover, #nav_current { color: #fff; background: #F16E50; transform: skew(-20deg); -webkit-transform: skew(-20deg); -moz-transform: skew(-20deg); -o-transform: skew(-20deg); }
 /* mainContent */
 .mainContent { background: #E8E5DD; width: 1000px; margin: 20px auto; overflow: hidden }
 aside { width: 270px; float: left; }
-.avatar { margin: 20px auto; width: 160px; height: 160px; border-radius: 160px; -moz-border-radius: 160px; -webkit-border-radius: 160px; overflow: hidden; }
+.avatar { margin: 20px auto; width: 160px; height: 160px; border-radius: 160px; -moz-border-radius: 160px; -webkit-border-radius: 160px; overflow: hidden;behavior: url(./css/PIE.htc); }
 .avatar a { display: block; padding-top: 97px; width: 160px; height: 63px; background: url(../images/photo.jpg) no-repeat; background-size: 160px 160px }
 .avatar a span { display: block; margin-top: 63px; padding-top: 8px; width: 160px; height: 55px; text-align: center; font-size: 16px; line-height: 20px; color: #fff; background: rgba(0, 0, 0, .5); -webkit-transition: margin-top .2s ease-in-out; -moz-transition: margin-top .2s ease-in-out; -o-transition: margin-top .2s ease-in-out; transition: margin-top .2s ease-in-out; }
 .avatar a:hover span { display: block; margin-top: 0; }

@@ -1,0 +1,14 @@
+{
+  "name": "wapTemplate",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-html2js": "^0.4.2",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.4"
+  }
+}

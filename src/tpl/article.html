@@ -1,0 +1,16 @@
+<%$.each(articles,function(i,r){%>
+<article data-more="<%=r.filename%>">
+    <h2 class="title">
+      <a href="javascript:void(0)"><%=r.title%></a>
+      <span class="close-article">-></span>
+    </h2>
+    <div class="text-container">
+      <ul class="text">
+        <p><%=r.content%></p>
+      </ul>
+    </div>
+    <div class="textfoot">
+      <a href="javascript:void(0)">阅读全文</a>
+    </div>
+</article> 
+<%})%>
